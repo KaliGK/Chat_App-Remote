@@ -1,8 +1,8 @@
 import socket
 import threading
 
-ip_server = '192.168.0.49'
-port = 5000
+ip_server = 'IP of the machine used as server'
+port = enter port
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((ip_server, port))
