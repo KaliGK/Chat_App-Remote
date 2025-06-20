@@ -2,8 +2,8 @@ import socket
 import threading
 import os
 
-server = '192.168.0.49'
-port = 5000
+server = 'IP machine used as server'
+port = port
 
 decision = input("Enable executing command?(Y/N): ").lower() == 'y'
 
